@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+        <title>FFR</title>
+        <meta cqharset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="anime.min.js"></script>
+        <script src="lodash.js"></script>
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <!--Container Starts here-->
+        <div class="content-container">
+
+
+            <!--Scroll indicator - PC only-->
+            <div class="scroll-indicator">
+                <div class="wheel"></div>
+            </div>
+
+
+            <!--Top right corner hamburger menu-->
+            <div class="menu-container">
+                    <div class="menu">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                    </div>
+                    <div class="menu-shadow">
+                    </div>
+            </div>
+
+
+            <!--Menu Section when the hamburger menu is clicked-->
+            <div class="menu-open">
+
+                <div class="left-side">
+                    <div class="contact-title">Frenchie Food Review</div>
+                    <div class="contact-email">jb.merville@gmail.com <div class="tiny-circle"></div> <span>jbmerville.com</span></div>
+                </div>
+
+                <div class="right-side">
+                    <div class="review-menu">
+                        <div class="page selectedP">
+                            <div class="bar selected"></div>
+                            <div class="review-name">Raspberry Croissant</div>
+                        </div>
+                        <div class="page">
+                            <div class="bar"></div>
+                            <div class="review-name">Mini Chocolate Tart</div>
+                        </div>
+                        <div class="page">
+                            <div class="bar"></div>
+                            <div class="review-name">French Dip</div>
+                        </div>
+                        <div class="page">
+                            <div class="bar"></div>
+                            <div class="review-name">Croque Monsieur</div>
+                        </div>
+                        <div class="page">
+                            <div class="bar"></div>
+                            <div class="review-name">Buche de Noel</div>
+                        </div>
+                        <div class="page">
+                            <div class="bar"></div>
+                            <div class="review-name">American Breakfast</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- SVG wraping around the pictures - PC only-->
+            <div class="picture-container">
+                    <svg viewBox="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <pattern id="img1" patternUnits="userSpaceOnUse" width="100%" height="650">
+                                    <image class="twombly" xlink:href="croissant.jpg" x="-100" y="0" width="400" height="300"></image>
+                            </pattern>
+                        </defs>
+                <polyline class="morphing" fill="url(#img1)" points="0 0, 200 0, 200 300, 0 300, 0 -2"/>
+                </svg>
+            </div>
+
+
+            <!--Review text container + pictures on mobile-->
+            <div class="text-container">
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">Raspberry Croissant</div>
+                        <div class="rating">Taste: 9/10 Frenchuraccy: 10/10</div>
+                        <div class="review">
+                                Really good looking pastry, with a little bit of white sugar on top. It looks and feels like a french croissant texture wise. The taste on the other hand is nothing like a traditional french croissant (or ‘paint au chocolat’ more accurately). It has a ‘mille feuilles’ side of it with its multiple layers and soft dough near the center. Its taste was very pleasant. The pastry didn’t feel very sugary but still had a pronounced fruity flavor that goes really well with the bread.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">Mini Chocolate Tart</div>
+                        <div class="rating">Taste: 4/10 Frenchuraccy: 9/10</div>
+                        <div class="review">
+                                Minimalistic one bite chocolate tart with whip cream on top. The biscuit has no flavor but has a nice crispy feel. The chocolate cream on top is strong compared to the flavors of the 2 other cream making it a disappointing experience. The mini tart is definitely something you would find in any pastry shop in france especially with its simple presentation and it’s tiny chocolate curl. 
+                        </div>
+                    </div>
+                    
+    
+                </div>
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">French Dip</div>
+                        <div class="rating">Taste: 9/10 Frenchuraccy: 10/10</div>
+                        <div class="review">
+                                This sandwich tastes like heaven in my mouth. The bread is amazing. Probably better than most french breads. Unfortunately this meal isn’t french at all.  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">Croque Monsieur</div>
+                        <div class="rating">Taste: 9/10 Frenchuraccy: 10/10</div>
+                        <div class="review">
+                                Really good looking pastry, with a little bit of white sugar on top. It looks and feels like a french croissant texture wise. The taste on the other hand is nothing like a traditional french croissant (or ‘paint au chocolat’ more accurately). It has a ‘mille feuilles’ side of it with its multiple layers and soft dough near the center. Its taste was very pleasant. The pastry didn’t feel very sugary but still had a pronounced fruity flavor that goes really well with the bread.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">Buche de Noel</div>
+                        <div class="rating">Taste: 9/10 Frenchuraccy: 10/10</div>
+                        <div class="review">
+                            Very light famous christmas french pastry. It’s the regular version of the buche de noel and is very delicious. Didn’t give a 10 for the taste because I didn't feel like it was much different than most american cakes with the cream and the soft paste.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-container">
+                    <div class="food-image"></div>
+                    <div class="review-text">
+                        <div class="title">American Breakfast</div>
+                        <div class="rating">Taste: 7/10 Frenchuraccy: ?/10</div>
+                        <div class="review">
+                            The eggs were really well cooked, so was the bacon. The croissant wasn’t very buttery but still tasted good when mixed with the yok and the bacon. 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--What review is being viewed indicator - PC only-->
+            <div class="page-indicator">
+            </div>
+
+
+            <!-- - PC only-->
+            <div class="loading-bar1"></div>
+            <div class="loading-bar2"></div>
+
+
+        </div>
+        <!--Container Ends here-->
+
+    </body>
+</html>
